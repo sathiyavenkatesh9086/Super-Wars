@@ -1,0 +1,53 @@
+body {
+    font-size: 20px;
+
+}
+
+.gridcontainer {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 100px;
+    grid-gap: 16px;
+    background-color: white;
+    padding: 20px;
+    align-items: stretch;
+    height: 800px;
+    justify-content: center;
+}
+
+
+.griditem li {
+    list-style: none;
+}
+
+#griditem3 {
+    padding: 1em 8em 0em 8em;
+    border: none;
+}
+
+.griditem {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: -80%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li.itemnumber {
+    font-size: 300%;
+    font-weight: 400;
+    height: 4em;
+}
+
+.footer {
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: bolder;
+}
